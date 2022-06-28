@@ -1,0 +1,118 @@
+body {
+  font-family: arial, sans-serif;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  background-color: white;
+}
+/* header */
+header {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#current {
+  margin-left: 10px;
+  background-color: #bb78fa;
+}
+#current:hover {
+  background-color: #9a60d0;
+}
+h1 {
+  color: #7c7c7c;
+  /* color: #0b5ed7; */
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 10px 20px;
+}
+#city-name {
+  text-transform: capitalize;
+}
+.fa-location-dot {
+  font-size: 20px;
+}
+
+.today-title {
+  margin-left: 20px;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+}
+
+/* current weather */
+.current-weather {
+  text-align: center;
+  line-height: 35px;
+  margin-top: 10px;
+}
+.description {
+  color: #7c7c7c;
+  font-size: 12px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 2;
+  text-align: left;
+  padding-left: 35px;
+}
+
+.current-wethear-icon {
+  font-size: 50px;
+  height: 19px;
+  line-height: 1;
+  padding-left: 20px;
+}
+.current-temperature {
+  padding-left: 10px;
+}
+#current-temperature {
+  color: rgb(33, 33, 33);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  top: -34px;
+}
+a {
+  text-decoration: none;
+}
+/* 5 day weather */
+.day-weather-title {
+  text-align: center;
+  margin-top: 10px;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+.dayly-weather {
+  color: #7c7c7c;
+  font-size: 12px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  margin: 0 10px;
+}
+.fa-sun {
+  color: #ffbb00;
+}
+.fa-cloud-rain,
+.fa-cloud {
+  color: #0b5ed7;
+}
+/* footer */
+footer {
+  color: gray;
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
